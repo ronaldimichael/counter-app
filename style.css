@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Finlandica Headline", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #35393c;
+}
+
+h1 {
+  color: #63ccca;
+  font-size: 4rem;
+}
+
+p {
+  color: #63ccca;
+  font-size: 26px;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+header {
+  padding-bottom: 52px;
+}
+
+#counter {
+  padding-top: 32px;
+}
+
+#counter-total {
+  color: #5da399;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+#counter-decrement_button,
+#counter-increment_button {
+  font-size: 20px;
+  border-radius: 12px;
+  color: #35393c;
+  border: 2px solid #397367;
+  width: 92px;
+  height: 38px;
+  background-color: #5da399;
+  padding: 6px;
+  margin: 50px;
+  cursor: pointer;
+}
+
+#counter-decrement_button:hover,
+#counter-increment_button:hover {
+  border-color: #63ccca;
+  font-weight: bolder;
+  width: 98px;
+}
+
+#counter-decrement_button:active,
+#counter-increment_button:active {
+  background-color: white;
+  font-weight: lighter;
+}
